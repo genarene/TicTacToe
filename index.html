@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    type="text/css"
+    href="./tictactoe.css">
+    <title>TicTacToe</title>
+</head>
+<body class="container">
+    
+   
+        <h1>Welcome To TIC TAC TOE</h1>
+        <div class="open-btn">
+          <button class="openFormBtn">Click here to play</button>
+        </div>
+        <div class="playerForm" id="popup-form">
+            <form class="player-input" id="myForm">
+                <div class="formgroup">
+        <label for="player1">Player 1</label>
+        <input type="text" id="player1" placeholder="Enter Player 1 Name">
+                </div>
+                
+                <div class="formgroup">
+                    <label for="player2">Player 2</label>
+                    <input type="text" id="player2" placeholder="Enter Player 2 Name">
+                  </div><br>
+        <button type="submit" class="play-btn">Let's Play</button>
+            </form>
+        </div>
+
+        <div class="place hidden">
+          <div class="gameStatus"> <h4>Playing Board</h4> </div>
+           
+          
+        
+            <div id="board">
+              <div class="cell text-center display-4"></div>
+              <div class="cell text-center display-4"></div>
+              <div class="cell text-center display-4"></div>
+              <div class="cell text-center display-4"></div>
+              <div class="cell text-center display-4"></div>
+              <div class="cell text-center display-4"></div>
+              <div class="cell text-center display-4"></div>
+              <div class="cell text-center display-4"></div>
+              <div class="cell text-center display-4"></div>
+            </div><br> <br>
+
+            <button type="reset" id="reset">Restart</button>
+         
+        </div>
+    
+    <script src="./tictactoe.js"></script>
+</body>
+</html>
